@@ -1,0 +1,50 @@
+.box {
+  width: 300px;
+  min-height: 400px;
+}
+
+.boxII {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.boxII img {
+  width: 100%;
+  height: 100%;
+}
+.boxIII {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  color: #fff;
+  text-align: center;
+  visibility: hidden;
+  transition: visibility 0.2s ease;
+}
+.firafont {
+  font-family: "Fira Mono", monospace;
+  font-weight: 300;
+}
+.sourcefont {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+.popperfont {
+  font-family: "Poppins", sans-serif;
+}
+
+.boxII:hover .boxIII {
+  visibility: visible;
+}
+
+.bg {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}

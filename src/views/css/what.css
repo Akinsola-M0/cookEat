@@ -1,0 +1,27 @@
+.choice {
+  position: absolute;
+  top: 88.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+  width: 100%;
+  min-height: 160%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(20px);
+}
+.firafont {
+  font-family: "Fira Mono", monospace;
+  font-weight: 300;
+}
+.sourcefont {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+.choice .card {
+  width: 400px;
+  box-sizing: border-box;
+  /* max-height: 700px; */
+}
